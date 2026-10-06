@@ -120,7 +120,7 @@ p {
     list-style: none;
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(35vw, 1fr));
     margin-right: 2rem;
 }
 
@@ -136,8 +136,7 @@ p {
 .index-werking ol {
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    margin-right: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
     list-style-position: inside;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -151,7 +150,8 @@ p {
 }
 
 .werking-stap {
-    margin-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .index-werking li::marker {
@@ -165,7 +165,6 @@ p {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 1rem;
     list-style: none;
-    margin-right: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
@@ -180,6 +179,7 @@ p {
 .index-beoordelingen .beoordeler {
     text-align: end;
     font-weight: 700;
+    margin: auto
 }
 
 /* checklist.html */
@@ -485,6 +485,8 @@ p {
 /* slot */
 
 .slot {
+    margin-left: 1rem;
+    margin-right: 1rem;
     text-align: center;
     align-items: center;
 }
