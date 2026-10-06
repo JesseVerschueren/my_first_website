@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawJet Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1> <a class="logo" href="index.html">PawJet</a></h1>
+        <ul class="nav-lijst">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="checklist.html">Checklist</a></li>
+            <li><a href="vloot.html">Vloot</a></li>
+            <li><a href="bestemmingen.html">Bestemmingen</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="contact-intro">
+        <h2 class="section-tittel">Neem contact op</h2>
+        <p>Heb je een vraag of wil je een offerte aanvragen? Vul het formulier in en we nemen zo snel mogelijk contact met je op.</p>
+    </section>
+
+    <section class="contact-inhoud">
+            <img id="hond-aangekleed" src="img/hond_aangekleed.jpg" alt="Hond aangekleed met een jeans jasje.">
+            <form class="contact-formulier" action="#" method="post">
+                <label class="form-label" for="naam">Naam</label>
+                <input class="form-input" type="text" id="naam" name="naam" required>
+ 
+                <label class="form-label" for="email">E-mailadres</label>
+                <input class="form-input" type="email" id="email" name="email" required>
+ 
+                <label class="form-label" for="telefoon">Telefoonnummer</label>
+                <input class="form-input" type="tel" id="telefoon" name="telefoon">
+ 
+                <label class="form-label" for="dier">Type dier</label>
+                <select class="form-select" id="dier" name="dier">
+                    <option value="hond">Hond</option>
+                    <option value="kat">Kat</option>
+                    <option value="ander">Ander</option>
+                </select>
+ 
+                <label class="form-label" for="bericht">Bericht</label>
+                <textarea id="bericht" name="bericht" rows="5" required></textarea>
+                <button class="offerte-knop" type="submit">Versturen</button>
+            </form>
+        </section>
+
+        <section class="contact-gegevens">
+            <h3>Contactgegevens</h3>
+            <p>E-mail: info@pawjet.be</p>
+            <p>Telefoon: +32 2 123 45 67</p>
+            <p>Adres: Luchthavenlaan 1, 1930 Zaventem, België</p>
+        </section>
+
+</body>
+</html>
