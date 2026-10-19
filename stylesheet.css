@@ -14,6 +14,7 @@
     --straal: 1rem;
 }
 
+
 .logo {
     text-decoration: none;
     color: var(--tekst);
@@ -68,6 +69,7 @@ p {
     text-decoration: none;
 }
 
+
 .nav-lijst a:hover {
     cursor: pointer;
     text-decoration: underline;
@@ -116,11 +118,6 @@ p {
 
 .index-intro h2 {
     padding-top: 2rem;
-}
-
-.index-intro p {
-    max-width: 25vw;
-    margin-left: 2rem;
 }
 
 .index-voordelen ul {
@@ -526,11 +523,6 @@ p {
     .site-header ul {
         margin: 0 1rem;
         gap: 1rem;
-    }
-
-    .index-intro p {
-        max-width: 90%;
-        margin-left: 1rem;
     }
 
     .checklist-intro,
